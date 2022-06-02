@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="6ffe6458-24b8-448f-80a1-18be37c00798"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="TaskTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="91266f14-fa80-450f-8dfa-788a1324c841">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="cff41e5e-1b2e-44e3-98d6-b4bb76bda1da"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="b9ff1d09-2982-4cda-8f63-a62a77fbb297"
+	name="TaskTestRepository"
+	relativepath="TaskTestRepository.rxrep">
+		<codegen
+		classname="TaskTestRepository"
+		namespace="TaskTest">
+		</codegen>
+		<rootfolder
+		id="a9c22518-0b68-4933-b1b0-cfd5f4a02574"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

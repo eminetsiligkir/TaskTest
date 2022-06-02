@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="TaskTest"
+      id="a1e7e74e-2010-40a3-a17e-721d8b44afd5"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="TaskTest"
+      id="a1e7e74e-2010-40a3-a17e-721d8b44afd5"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
